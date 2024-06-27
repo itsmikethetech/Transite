@@ -1,0 +1,217 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "EasyTabs/2.0.0": {
+        "dependencies": {
+          "Svg": "2.4.3",
+          "Win32Interop.Dwmapi": "1.0.1",
+          "Win32Interop.Gdi32": "1.0.1",
+          "Win32Interop.Kernel32": "1.0.1",
+          "Win32Interop.User32": "1.0.1",
+          "Win32Interop.Uxtheme": "1.0.1"
+        },
+        "runtime": {
+          "lib/net40/EasyTabs.dll": {
+            "assemblyVersion": "2.0.0.39",
+            "fileVersion": "2.0.0.39"
+          },
+          "lib/net40/Microsoft.WindowsAPICodePack.Shell.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net40/Microsoft.WindowsAPICodePack.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Web.WebView2/1.0.2592.51": {
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Core.dll": {
+            "assemblyVersion": "1.0.2592.51",
+            "fileVersion": "1.0.2592.51"
+          },
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.WinForms.dll": {
+            "assemblyVersion": "1.0.2592.51",
+            "fileVersion": "1.0.2592.51"
+          },
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Wpf.dll": {
+            "assemblyVersion": "1.0.2592.51",
+            "fileVersion": "1.0.2592.51"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/WebView2Loader.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "1.0.2592.51"
+          },
+          "runtimes/win-x64/native/WebView2Loader.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.0.2592.51"
+          },
+          "runtimes/win-x86/native/WebView2Loader.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.0.2592.51"
+          }
+        }
+      },
+      "Svg/2.4.3": {
+        "runtime": {
+          "lib/Svg.dll": {
+            "assemblyVersion": "2.4.3.29446",
+            "fileVersion": "2.4.3.29446"
+          }
+        }
+      },
+      "Win32Interop.Dwmapi/1.0.1": {
+        "dependencies": {
+          "Win32Interop.User32": "1.0.1",
+          "Win32Interop.Uxtheme": "1.0.1"
+        },
+        "runtime": {
+          "lib/Win32Interop.Dwmapi.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "Win32Interop.Gdi32/1.0.1": {
+        "dependencies": {
+          "Win32Interop.User32": "1.0.1"
+        },
+        "runtime": {
+          "lib/Win32Interop.Gdi32.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "Win32Interop.Kernel32/1.0.1": {
+        "runtime": {
+          "lib/Win32Interop.Kernel32.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "Win32Interop.User32/1.0.1": {
+        "runtime": {
+          "lib/Win32Interop.User32.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "Win32Interop.Uxtheme/1.0.1": {
+        "dependencies": {
+          "Win32Interop.User32": "1.0.1"
+        },
+        "runtime": {
+          "lib/Win32Interop.Uxtheme.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "windowtitlebar-wpf.WindowTitleControl/1.0.20": {
+        "runtime": {
+          "lib/net45/WindowTitleControl.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "windowtitlebar-wpf.WindowTitleControl.Sample/1.0.20": {
+        "dependencies": {
+          "windowtitlebar-wpf.WindowTitleControl": "1.0.20"
+        },
+        "runtime": {
+          "lib/net45/WindowTitleControl.Sample.exe": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EasyTabs/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3Kfh4mATMLMpWPW+yM3jKndDkJ4LpTtOBjjh0kVHENohcJJyXAQ+OmeMR1qV1Tj70r2tRsTDohcorG5XnC/1+A==",
+      "path": "easytabs/2.0.0",
+      "hashPath": "easytabs.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.Web.WebView2/1.0.2592.51": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AC9aWCthS2JvddYA1jl4dFpLBW3GsLRInhp5dkcBzaFXsRehfoUN9olIUsrH41eNaNYd7z9NRvmy81aUA5aD1g==",
+      "path": "microsoft.web.webview2/1.0.2592.51",
+      "hashPath": "microsoft.web.webview2.1.0.2592.51.nupkg.sha512"
+    },
+    "Svg/2.4.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5HuSl7iaYbMZG9lnuGHnJ+hgiy6stmiRgVYdwAdyPVAdeDG9P5is2K0UT9kM6mKOnhHDjXRok85nx5DNKRgZEg==",
+      "path": "svg/2.4.3",
+      "hashPath": "svg.2.4.3.nupkg.sha512"
+    },
+    "Win32Interop.Dwmapi/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Jkaj/RhMmW0h/eSWV1YKlCW1bkjW9MCGxn21I6cJscz1zb5bq/I6iSfwZxSI63aVo18BSKyONQ78iNZzd4frWA==",
+      "path": "win32interop.dwmapi/1.0.1",
+      "hashPath": "win32interop.dwmapi.1.0.1.nupkg.sha512"
+    },
+    "Win32Interop.Gdi32/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+rtmt0ae7tRfBIEb7kPlw2cWNABLUp5JLqIPi7rMK3HQLWdWIs8T3iEwki2SCSdRHmDSH5S34HE+ytxRsUDEhQ==",
+      "path": "win32interop.gdi32/1.0.1",
+      "hashPath": "win32interop.gdi32.1.0.1.nupkg.sha512"
+    },
+    "Win32Interop.Kernel32/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8ApAA5F8N7qZm+SLkfY61qk1mzCsbu8KFEBNnTMwyWO5vbTTXl/0PfT99thP3X5Di+lKWvXvj381N2UG3DYhNQ==",
+      "path": "win32interop.kernel32/1.0.1",
+      "hashPath": "win32interop.kernel32.1.0.1.nupkg.sha512"
+    },
+    "Win32Interop.User32/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GrtMD4QYCys/wHKDrvIM62YJJQCeQfPkCK7kYN+dlcz+jVTi2Abtsy+4rzfFzHfhYWpBeA3EoXzqQAJVfN9N/w==",
+      "path": "win32interop.user32/1.0.1",
+      "hashPath": "win32interop.user32.1.0.1.nupkg.sha512"
+    },
+    "Win32Interop.Uxtheme/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2EjHI+iExj5gl+p4LceG6wOz8FsWLVrbP51D60/ANHiYBSPS5NL3dms1jMNT+0VFQv3vJ0j8FAeWZCFLC1RC+A==",
+      "path": "win32interop.uxtheme/1.0.1",
+      "hashPath": "win32interop.uxtheme.1.0.1.nupkg.sha512"
+    },
+    "windowtitlebar-wpf.WindowTitleControl/1.0.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IAkDKmUrp2lZpfnmRfcsy2euCnHVo0EbjiSxK9TwEO4MCUJg6AWiIllhJTU0yi/VHY2jEU7/YRSuV2oYGm4f7A==",
+      "path": "windowtitlebar-wpf.windowtitlecontrol/1.0.20",
+      "hashPath": "windowtitlebar-wpf.windowtitlecontrol.1.0.20.nupkg.sha512"
+    },
+    "windowtitlebar-wpf.WindowTitleControl.Sample/1.0.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xM7E7iudWnM8bMjQuPXLGBSdPNHvJ5skM2bbcKI0r2dzAR5fhw97F3s7dl6K2viruXI+Nezop7Gi/gAem5omZA==",
+      "path": "windowtitlebar-wpf.windowtitlecontrol.sample/1.0.20",
+      "hashPath": "windowtitlebar-wpf.windowtitlecontrol.sample.1.0.20.nupkg.sha512"
+    }
+  }
+}

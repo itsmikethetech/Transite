@@ -1,0 +1,110 @@
+{
+  "version": 2,
+  "dgSpecHash": "3BASQJaJElQIIbHswtQ1iuTzST2ItoSGUXZ6m/OiUtuIFrEtbg59avyXMYPtRIPpNUfYyAV2UOysZjQV1CvFpA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alisa\\source\\repos\\DiscordWV\\DiscordWV\\Transite.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alisa\\.nuget\\packages\\easytabs\\2.0.0\\easytabs.2.0.0.nupkg.sha512",
+    "C:\\Users\\alisa\\.nuget\\packages\\microsoft.web.webview2\\1.0.2592.51\\microsoft.web.webview2.1.0.2592.51.nupkg.sha512",
+    "C:\\Users\\alisa\\.nuget\\packages\\svg\\2.4.3\\svg.2.4.3.nupkg.sha512",
+    "C:\\Users\\alisa\\.nuget\\packages\\win32interop.dwmapi\\1.0.1\\win32interop.dwmapi.1.0.1.nupkg.sha512",
+    "C:\\Users\\alisa\\.nuget\\packages\\win32interop.gdi32\\1.0.1\\win32interop.gdi32.1.0.1.nupkg.sha512",
+    "C:\\Users\\alisa\\.nuget\\packages\\win32interop.kernel32\\1.0.1\\win32interop.kernel32.1.0.1.nupkg.sha512",
+    "C:\\Users\\alisa\\.nuget\\packages\\win32interop.user32\\1.0.1\\win32interop.user32.1.0.1.nupkg.sha512",
+    "C:\\Users\\alisa\\.nuget\\packages\\win32interop.uxtheme\\1.0.1\\win32interop.uxtheme.1.0.1.nupkg.sha512",
+    "C:\\Users\\alisa\\.nuget\\packages\\windowtitlebar-wpf.windowtitlecontrol\\1.0.20\\windowtitlebar-wpf.windowtitlecontrol.1.0.20.nupkg.sha512",
+    "C:\\Users\\alisa\\.nuget\\packages\\windowtitlebar-wpf.windowtitlecontrol.sample\\1.0.20\\windowtitlebar-wpf.windowtitlecontrol.sample.1.0.20.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EasyTabs 2.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "EasyTabs",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Svg 2.4.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Svg",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Win32Interop.Dwmapi 1.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Win32Interop.Dwmapi",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Win32Interop.Gdi32 1.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Win32Interop.Gdi32",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Win32Interop.Kernel32 1.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Win32Interop.Kernel32",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Win32Interop.User32 1.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Win32Interop.User32",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Win32Interop.Uxtheme 1.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Win32Interop.Uxtheme",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'windowtitlebar-wpf.WindowTitleControl 1.0.20' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "windowtitlebar-wpf.WindowTitleControl",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'windowtitlebar-wpf.WindowTitleControl.Sample 1.0.20' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "windowtitlebar-wpf.WindowTitleControl.Sample",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    }
+  ]
+}

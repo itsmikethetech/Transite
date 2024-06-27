@@ -1,0 +1,557 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0-windows7.0": {
+      "EasyTabs/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Svg": "2.4.3",
+          "Win32Interop.Dwmapi": "1.0.1",
+          "Win32Interop.Gdi32": "1.0.1",
+          "Win32Interop.Kernel32": "1.0.1",
+          "Win32Interop.User32": "1.0.1",
+          "Win32Interop.Uxtheme": "1.0.1"
+        },
+        "compile": {
+          "lib/net40/EasyTabs.dll": {
+            "related": ".XML"
+          },
+          "lib/net40/Microsoft.WindowsAPICodePack.Shell.dll": {},
+          "lib/net40/Microsoft.WindowsAPICodePack.dll": {}
+        },
+        "runtime": {
+          "lib/net40/EasyTabs.dll": {
+            "related": ".XML"
+          },
+          "lib/net40/Microsoft.WindowsAPICodePack.Shell.dll": {},
+          "lib/net40/Microsoft.WindowsAPICodePack.dll": {}
+        }
+      },
+      "Microsoft.Web.WebView2/1.0.2592.51": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Core.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.WinForms.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Wpf.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Core.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.WinForms.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Wpf.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/Microsoft.Web.WebView2.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/WebView2Loader.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/WebView2Loader.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/WebView2Loader.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "Svg/2.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/Svg.dll": {}
+        },
+        "runtime": {
+          "lib/Svg.dll": {}
+        }
+      },
+      "Win32Interop.Dwmapi/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Win32Interop.User32": "1.0.1",
+          "Win32Interop.Uxtheme": "1.0.1"
+        },
+        "compile": {
+          "lib/Win32Interop.Dwmapi.dll": {}
+        },
+        "runtime": {
+          "lib/Win32Interop.Dwmapi.dll": {}
+        }
+      },
+      "Win32Interop.Gdi32/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Win32Interop.User32": "1.0.1"
+        },
+        "compile": {
+          "lib/Win32Interop.Gdi32.dll": {}
+        },
+        "runtime": {
+          "lib/Win32Interop.Gdi32.dll": {}
+        }
+      },
+      "Win32Interop.Kernel32/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/Win32Interop.Kernel32.dll": {}
+        },
+        "runtime": {
+          "lib/Win32Interop.Kernel32.dll": {}
+        }
+      },
+      "Win32Interop.User32/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/Win32Interop.User32.dll": {}
+        },
+        "runtime": {
+          "lib/Win32Interop.User32.dll": {}
+        }
+      },
+      "Win32Interop.Uxtheme/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Win32Interop.User32": "1.0.1"
+        },
+        "compile": {
+          "lib/Win32Interop.Uxtheme.dll": {}
+        },
+        "runtime": {
+          "lib/Win32Interop.Uxtheme.dll": {}
+        }
+      },
+      "windowtitlebar-wpf.WindowTitleControl/1.0.20": {
+        "type": "package",
+        "compile": {
+          "lib/net45/WindowTitleControl.dll": {}
+        },
+        "runtime": {
+          "lib/net45/WindowTitleControl.dll": {}
+        }
+      },
+      "windowtitlebar-wpf.WindowTitleControl.Sample/1.0.20": {
+        "type": "package",
+        "dependencies": {
+          "windowtitlebar-wpf.WindowTitleControl": "1.0.20"
+        },
+        "compile": {
+          "lib/net45/WindowTitleControl.Sample.exe": {}
+        },
+        "runtime": {
+          "lib/net45/WindowTitleControl.Sample.exe": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EasyTabs/2.0.0": {
+      "sha512": "3Kfh4mATMLMpWPW+yM3jKndDkJ4LpTtOBjjh0kVHENohcJJyXAQ+OmeMR1qV1Tj70r2tRsTDohcorG5XnC/1+A==",
+      "type": "package",
+      "path": "easytabs/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "easytabs.2.0.0.nupkg.sha512",
+        "easytabs.nuspec",
+        "lib/net40/EasyTabs.XML",
+        "lib/net40/EasyTabs.dll",
+        "lib/net40/Microsoft.WindowsAPICodePack.Shell.dll",
+        "lib/net40/Microsoft.WindowsAPICodePack.dll"
+      ]
+    },
+    "Microsoft.Web.WebView2/1.0.2592.51": {
+      "sha512": "AC9aWCthS2JvddYA1jl4dFpLBW3GsLRInhp5dkcBzaFXsRehfoUN9olIUsrH41eNaNYd7z9NRvmy81aUA5aD1g==",
+      "type": "package",
+      "path": "microsoft.web.webview2/1.0.2592.51",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "NOTICE.txt",
+        "WebView2.idl",
+        "WebView2.tlb",
+        "build/Common.targets",
+        "build/Microsoft.Web.WebView2.targets",
+        "build/WebView2Rules.Project.xml",
+        "build/native/Microsoft.Web.WebView2.targets",
+        "build/native/arm64/WebView2Loader.dll",
+        "build/native/arm64/WebView2Loader.dll.lib",
+        "build/native/arm64/WebView2LoaderStatic.lib",
+        "build/native/include-winrt/WebView2Interop.h",
+        "build/native/include-winrt/WebView2Interop.idl",
+        "build/native/include-winrt/WebView2Interop.tlb",
+        "build/native/include/WebView2.h",
+        "build/native/include/WebView2EnvironmentOptions.h",
+        "build/native/x64/WebView2Loader.dll",
+        "build/native/x64/WebView2Loader.dll.lib",
+        "build/native/x64/WebView2LoaderStatic.lib",
+        "build/native/x86/WebView2Loader.dll",
+        "build/native/x86/WebView2Loader.dll.lib",
+        "build/native/x86/WebView2LoaderStatic.lib",
+        "build/wv2winrt.targets",
+        "lib/Microsoft.Web.WebView2.Core.winmd",
+        "lib/net462/Microsoft.Web.WebView2.Core.dll",
+        "lib/net462/Microsoft.Web.WebView2.Core.xml",
+        "lib/net462/Microsoft.Web.WebView2.WinForms.dll",
+        "lib/net462/Microsoft.Web.WebView2.WinForms.xml",
+        "lib/net462/Microsoft.Web.WebView2.Wpf.dll",
+        "lib/net462/Microsoft.Web.WebView2.Wpf.xml",
+        "lib/netcoreapp3.0/Microsoft.Web.WebView2.Core.dll",
+        "lib/netcoreapp3.0/Microsoft.Web.WebView2.Core.xml",
+        "lib/netcoreapp3.0/Microsoft.Web.WebView2.WinForms.dll",
+        "lib/netcoreapp3.0/Microsoft.Web.WebView2.WinForms.xml",
+        "lib/netcoreapp3.0/Microsoft.Web.WebView2.Wpf.dll",
+        "lib/netcoreapp3.0/Microsoft.Web.WebView2.Wpf.xml",
+        "microsoft.web.webview2.1.0.2592.51.nupkg.sha512",
+        "microsoft.web.webview2.nuspec",
+        "runtimes/win-arm64/native/WebView2Loader.dll",
+        "runtimes/win-arm64/native_uap/Microsoft.Web.WebView2.Core.dll",
+        "runtimes/win-x64/native/WebView2Loader.dll",
+        "runtimes/win-x64/native_uap/Microsoft.Web.WebView2.Core.dll",
+        "runtimes/win-x86/native/WebView2Loader.dll",
+        "runtimes/win-x86/native_uap/Microsoft.Web.WebView2.Core.dll",
+        "tools/VisualStudioToolsManifest.xml",
+        "tools/wv2winrt/Antlr3.Runtime.dll",
+        "tools/wv2winrt/Antlr4.StringTemplate.dll",
+        "tools/wv2winrt/System.Buffers.dll",
+        "tools/wv2winrt/System.CommandLine.DragonFruit.dll",
+        "tools/wv2winrt/System.CommandLine.Rendering.dll",
+        "tools/wv2winrt/System.CommandLine.dll",
+        "tools/wv2winrt/System.Memory.dll",
+        "tools/wv2winrt/System.Numerics.Vectors.dll",
+        "tools/wv2winrt/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/wv2winrt/codegen_util.dll",
+        "tools/wv2winrt/concrt140_app.dll",
+        "tools/wv2winrt/cs/System.CommandLine.resources.dll",
+        "tools/wv2winrt/de/System.CommandLine.resources.dll",
+        "tools/wv2winrt/es/System.CommandLine.resources.dll",
+        "tools/wv2winrt/fr/System.CommandLine.resources.dll",
+        "tools/wv2winrt/it/System.CommandLine.resources.dll",
+        "tools/wv2winrt/ja/System.CommandLine.resources.dll",
+        "tools/wv2winrt/ko/System.CommandLine.resources.dll",
+        "tools/wv2winrt/msvcp140_1_app.dll",
+        "tools/wv2winrt/msvcp140_2_app.dll",
+        "tools/wv2winrt/msvcp140_app.dll",
+        "tools/wv2winrt/pl/System.CommandLine.resources.dll",
+        "tools/wv2winrt/pt-BR/System.CommandLine.resources.dll",
+        "tools/wv2winrt/ru/System.CommandLine.resources.dll",
+        "tools/wv2winrt/tr/System.CommandLine.resources.dll",
+        "tools/wv2winrt/type_hierarchy.dll",
+        "tools/wv2winrt/vcamp140_app.dll",
+        "tools/wv2winrt/vccorlib140_app.dll",
+        "tools/wv2winrt/vcomp140_app.dll",
+        "tools/wv2winrt/vcruntime140_app.dll",
+        "tools/wv2winrt/winrt_winmd.dll",
+        "tools/wv2winrt/winrt_winmd.winmd",
+        "tools/wv2winrt/wv2winrt.exe",
+        "tools/wv2winrt/wv2winrt.exe.config",
+        "tools/wv2winrt/wv2winrt.xml",
+        "tools/wv2winrt/zh-Hans/System.CommandLine.resources.dll",
+        "tools/wv2winrt/zh-Hant/System.CommandLine.resources.dll"
+      ]
+    },
+    "Svg/2.4.3": {
+      "sha512": "5HuSl7iaYbMZG9lnuGHnJ+hgiy6stmiRgVYdwAdyPVAdeDG9P5is2K0UT9kM6mKOnhHDjXRok85nx5DNKRgZEg==",
+      "type": "package",
+      "path": "svg/2.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Svg.XML",
+        "lib/Svg.dll",
+        "lib/Svg.pdb",
+        "svg.2.4.3.nupkg.sha512",
+        "svg.nuspec"
+      ]
+    },
+    "Win32Interop.Dwmapi/1.0.1": {
+      "sha512": "Jkaj/RhMmW0h/eSWV1YKlCW1bkjW9MCGxn21I6cJscz1zb5bq/I6iSfwZxSI63aVo18BSKyONQ78iNZzd4frWA==",
+      "type": "package",
+      "path": "win32interop.dwmapi/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Win32Interop.Dwmapi.dll",
+        "lib/Win32Interop.Dwmapi.pdb",
+        "win32interop.dwmapi.1.0.1.nupkg.sha512",
+        "win32interop.dwmapi.nuspec"
+      ]
+    },
+    "Win32Interop.Gdi32/1.0.1": {
+      "sha512": "+rtmt0ae7tRfBIEb7kPlw2cWNABLUp5JLqIPi7rMK3HQLWdWIs8T3iEwki2SCSdRHmDSH5S34HE+ytxRsUDEhQ==",
+      "type": "package",
+      "path": "win32interop.gdi32/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Win32Interop.Gdi32.XML",
+        "lib/Win32Interop.Gdi32.dll",
+        "lib/Win32Interop.Gdi32.pdb",
+        "win32interop.gdi32.1.0.1.nupkg.sha512",
+        "win32interop.gdi32.nuspec"
+      ]
+    },
+    "Win32Interop.Kernel32/1.0.1": {
+      "sha512": "8ApAA5F8N7qZm+SLkfY61qk1mzCsbu8KFEBNnTMwyWO5vbTTXl/0PfT99thP3X5Di+lKWvXvj381N2UG3DYhNQ==",
+      "type": "package",
+      "path": "win32interop.kernel32/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Win32Interop.Kernel32.dll",
+        "lib/Win32Interop.Kernel32.pdb",
+        "win32interop.kernel32.1.0.1.nupkg.sha512",
+        "win32interop.kernel32.nuspec"
+      ]
+    },
+    "Win32Interop.User32/1.0.1": {
+      "sha512": "GrtMD4QYCys/wHKDrvIM62YJJQCeQfPkCK7kYN+dlcz+jVTi2Abtsy+4rzfFzHfhYWpBeA3EoXzqQAJVfN9N/w==",
+      "type": "package",
+      "path": "win32interop.user32/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Win32Interop.User32.dll",
+        "lib/Win32Interop.User32.pdb",
+        "win32interop.user32.1.0.1.nupkg.sha512",
+        "win32interop.user32.nuspec"
+      ]
+    },
+    "Win32Interop.Uxtheme/1.0.1": {
+      "sha512": "2EjHI+iExj5gl+p4LceG6wOz8FsWLVrbP51D60/ANHiYBSPS5NL3dms1jMNT+0VFQv3vJ0j8FAeWZCFLC1RC+A==",
+      "type": "package",
+      "path": "win32interop.uxtheme/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Win32Interop.Uxtheme.dll",
+        "lib/Win32Interop.Uxtheme.pdb",
+        "win32interop.uxtheme.1.0.1.nupkg.sha512",
+        "win32interop.uxtheme.nuspec"
+      ]
+    },
+    "windowtitlebar-wpf.WindowTitleControl/1.0.20": {
+      "sha512": "IAkDKmUrp2lZpfnmRfcsy2euCnHVo0EbjiSxK9TwEO4MCUJg6AWiIllhJTU0yi/VHY2jEU7/YRSuV2oYGm4f7A==",
+      "type": "package",
+      "path": "windowtitlebar-wpf.windowtitlecontrol/1.0.20",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/WindowTitleControl.dll",
+        "windowtitlebar-wpf.windowtitlecontrol.1.0.20.nupkg.sha512",
+        "windowtitlebar-wpf.windowtitlecontrol.nuspec"
+      ]
+    },
+    "windowtitlebar-wpf.WindowTitleControl.Sample/1.0.20": {
+      "sha512": "xM7E7iudWnM8bMjQuPXLGBSdPNHvJ5skM2bbcKI0r2dzAR5fhw97F3s7dl6K2viruXI+Nezop7Gi/gAem5omZA==",
+      "type": "package",
+      "path": "windowtitlebar-wpf.windowtitlecontrol.sample/1.0.20",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/WindowTitleControl.Sample.exe",
+        "windowtitlebar-wpf.windowtitlecontrol.sample.1.0.20.nupkg.sha512",
+        "windowtitlebar-wpf.windowtitlecontrol.sample.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0-windows7.0": [
+      "EasyTabs >= 2.0.0",
+      "Microsoft.Web.WebView2 >= 1.0.2592.51",
+      "windowtitlebar-wpf.WindowTitleControl.Sample >= 1.0.20"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\alisa\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\alisa\\source\\repos\\DiscordWV\\DiscordWV\\Transite.csproj",
+      "projectName": "Transite",
+      "projectPath": "C:\\Users\\alisa\\source\\repos\\DiscordWV\\DiscordWV\\Transite.csproj",
+      "packagesPath": "C:\\Users\\alisa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alisa\\source\\repos\\DiscordWV\\DiscordWV\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\alisa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net7.0-windows7.0": {
+        "targetAlias": "net7.0-windows7.0",
+        "dependencies": {
+          "EasyTabs": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
+          "Microsoft.Web.WebView2": {
+            "target": "Package",
+            "version": "[1.0.2592.51, )"
+          },
+          "windowtitlebar-wpf.WindowTitleControl.Sample": {
+            "target": "Package",
+            "version": "[1.0.20, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EasyTabs 2.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "EasyTabs",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Svg 2.4.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Svg",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Win32Interop.Dwmapi 1.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Win32Interop.Dwmapi",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Win32Interop.Gdi32 1.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Win32Interop.Gdi32",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Win32Interop.Kernel32 1.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Win32Interop.Kernel32",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Win32Interop.User32 1.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Win32Interop.User32",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Win32Interop.Uxtheme 1.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Win32Interop.Uxtheme",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'windowtitlebar-wpf.WindowTitleControl 1.0.20' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "windowtitlebar-wpf.WindowTitleControl",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'windowtitlebar-wpf.WindowTitleControl.Sample 1.0.20' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "windowtitlebar-wpf.WindowTitleControl.Sample",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    }
+  ]
+}
